@@ -231,6 +231,6 @@ class RecipeScreen : AppCompatActivity() {
                 "In a pan, sauté onion, and garlic until golden brown.\n\n" +
                 "Add the chopped meat, soy sauce, vinegar, calamansi juice, and red chili pepper. Mix well, season with salt and pepper to taste.")
     }
-    //Coded by: Dominic O. Ramos 2BSIT2
-    //Integrated by: Kurt P. Colonia 2BSIT2
+    //Copyrights © https://github.com/Dramos02 (Dominic O. Ramos)
+    //Integrated by: https://github.com/kurut0dev  (Kurt P. Colonia)
 }
