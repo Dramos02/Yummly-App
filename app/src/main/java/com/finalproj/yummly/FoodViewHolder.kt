@@ -8,4 +8,5 @@ class FoodViewHolder(val foodBinding: FoodItemBinding) : RecyclerView.ViewHolder
         foodBinding.foodNameTxt.text = food.name
         foodBinding.foodImgBtn.setImageResource(food.img)
     }
+    //Copyrights © https://github.com/kurut0dev
 }
