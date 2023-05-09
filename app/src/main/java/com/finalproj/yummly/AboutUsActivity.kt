@@ -45,5 +45,6 @@ class AboutUsActivity : AppCompatActivity() {
                 "\n\tResource Researcher" +
                 "\n\tSoftware Developer\n"
     }
+    //Copyrights © https://github.com/Dramos02
 
 }
