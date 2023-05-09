@@ -43,6 +43,6 @@ class LoginActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        //submitted by: Dominic O. Ramos 2BSIT2
+        //Coded by: Dominic O. Ramos 2BSIT2
     }
     }
