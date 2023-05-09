@@ -1,0 +1,21 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Yummly</string>
+
+    <!-- Placeholders -->
+    <string name="search_title">Search...</string>
+    <string name="food_title_placeholder">[ FOOD NAME ]</string>
+
+    <!-- Login Page Values -->
+    <string name="login_text">Login</string>
+    <string name="username_text">Username</string>
+    <string name="password_text">Password</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="signup_text">Sign Up</string>
+
+    <!-- About Us Page Vales -->
+    <string name="aboutUs_text">About Us</string>
+    <string name="aboutUsBody_text"></string>
+    <string name="homePage_btn">Home</string>
+
+</resources>

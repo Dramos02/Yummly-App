@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Yummly" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/yummlyYellow</item>
+        <item name="colorPrimaryVariant">@color/yummlyYellow</item>
+        <item name="colorOnPrimary">@color/yummlyWhite</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/yummlyBrown</item>
+        <item name="colorSecondaryVariant">@color/yummlyBrown</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
