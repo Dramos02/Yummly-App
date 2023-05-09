@@ -76,5 +76,5 @@ class MainMenuActivity : AppCompatActivity() {
         foodList.add(Food("Sinigang", R.drawable.sinigang))
         foodList.add(Food("Sisig", R.drawable.sisig))
     }
-
+//Copyrights © https://github.com/kurut0dev
 }
