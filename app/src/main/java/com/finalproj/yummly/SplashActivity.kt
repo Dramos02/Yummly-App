@@ -20,4 +20,5 @@ class SplashActivity : AppCompatActivity() {
         , SPLASH_TIME)
 
     }
+    //Copyrights © https://github.com/kurut0dev
 }
