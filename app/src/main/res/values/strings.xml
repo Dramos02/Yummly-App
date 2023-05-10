@@ -18,4 +18,7 @@
     <string name="aboutUsBody_text"></string>
     <string name="homePage_btn">Home</string>
 
+    <!-- Recipe Screen Values -->
+    <string name="ingredient_title">Ingredients</string>
+    <string name="instruction_title">Instructions</string>
 </resources>

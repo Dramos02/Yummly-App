@@ -61,7 +61,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#00FFFFFF"
-                android:scaleType="fitXY"
+                android:padding="0dp"
+                android:scaleType="centerCrop"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -103,14 +104,23 @@
                     android:id="@+id/card_Ingredients"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp">
+                    android:layout_margin="5dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal"
+                        android:orientation="vertical"
                         android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/ingredientsTitleTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/agenor_neue"
+                            android:gravity="center"
+                            android:text="@string/ingredient_title"
+                            android:textColor="@color/yummlyBrown"
+                            android:textSize="20sp" />
 
                         <TextView
                             android:id="@+id/ingredientsTxtView"
@@ -125,13 +135,27 @@
                 <androidx.cardview.widget.CardView
                     android:id="@+id/card_Instructions"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal"
+                        android:orientation="vertical"
                         android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/instructionsTitleTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/agenor_neue"
+                            android:gravity="center"
+                            android:text="@string/instruction_title"
+                            android:textColor="@color/yummlyBrown"
+                            android:textSize="20sp" />
 
                         <TextView
                             android:id="@+id/instructionsTxtView"

@@ -7,7 +7,7 @@
     tools:context=".MainMenuActivity">
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/mainBG"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:cropToPadding="false"
@@ -20,6 +20,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/background_mainmenu" />
+
+    <TextView
+        android:id="@+id/mainTransparent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#40000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/titleCard"
@@ -56,7 +66,6 @@
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:background="#99000000"
-                android:text="TextView"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
