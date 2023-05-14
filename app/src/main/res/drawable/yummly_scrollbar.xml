@@ -3,3 +3,5 @@
     <gradient android:startColor="@color/yummlyWhite" android:endColor="@color/yummlyWhite"/>
     <corners android:radius="8dp"/>
 </shape>
+
+//Copyrights © https://github.com/kurut0dev
