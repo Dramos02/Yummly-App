@@ -37,7 +37,7 @@ class LoginActivity : AppCompatActivity() {
         binding.forgotPassEditTxt.setOnClickListener(){
             Toast.makeText(applicationContext, "username $defaultUsername password $defaultPassword", Toast.LENGTH_SHORT).show()
         }
-
+        // I added this for user's to check who developed the Yummly App
         binding.aboutUsEditTxt.setOnClickListener(){
             val intent = Intent(this, AboutUsActivity::class.java)
             startActivity(intent)
